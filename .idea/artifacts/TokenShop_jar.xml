@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TokenShop:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TokenShop_jar</output-path>
+    <root id="archive" name="TokenShop.jar">
+      <element id="module-output" name="TokenShop" />
+    </root>
+  </artifact>
+</component>

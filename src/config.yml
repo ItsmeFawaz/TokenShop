@@ -1,0 +1,252 @@
+messages:
+  #if command is sent from console
+  consoleMsg: "Only players may execute this command!"
+  #on /tokenshop bal
+  balanceMsg: "&e You have &a{token}⛁ &etokens"
+  #if amount isn"t a number
+  invalidAmount: "&cAmount must be a number"
+  #Sender when doing /tokenshop pay
+  payMsg: "&eYou have sent &a{token}⛁ &etokens to {receiver}"
+  #Receiver when someone sends them money through /tokenshop pay
+  receiveMsg: "&eYou have receive &a{token}⛁ &etokens from {sender}"
+  #If player doesn"t have sufficient tokens to send
+  insufficientFunds: "&cYou don't have sufficient funds"
+  #If player name is invalid
+  invalidPlayer: "&cInvalid player!"
+  #if the player puts an invalid argument
+  invalidArgument: "&cInvalid argument"
+  #when player puts less arguments than needed
+  insufficientArgument: "&cInsufficient arguments"
+  #on successful purchase
+  purchaseSuccess: "&eYou have purchased a {itemname}&e for &a{price}⛁"
+  #the help message when doing /tokenshop
+  helpMsg: "&7------===&b TokenShop &aCommands &7===------\n
+  &6/tokenshop &f- &7Shows this\n
+  &6/tokenshop bal &f- &7Shows your current balance\n
+  &6/tokenshop shop &f- &7Opens the shop GUI\n
+  &6/tokenshop pay &f[playername] [amount] - &7Pays the specified amount of tokens to the specified player"
+shop:
+  slot1:
+    material: YELLOW_FLOWER
+    purchasable: false
+    name: "&eYou have &a{token} &etokens"
+    isEnchanted: true;
+  slot2:
+    name: ""
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot3:
+    name: ""
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot4:
+    name: ""
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot5:
+    name: ""
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot6:
+    name: ""
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot7:
+    name: ""
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot8:
+    name: ""
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot9:
+    material: BOOK
+    name: You can use tokens to purchase different items from this exclusive tokenshop
+    purchasabe: false
+    isEnchanted: true
+  slot10:
+    name: ""
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot11:
+    material: DIAMOND_HELMET
+    name: "&4&lBadass Helmet"
+    price: 500
+    purchasable: true
+    lores:
+      - "&eYou can buy this item for {price}"
+    commandsOnPurchase:
+      - give {player} diamond_helmet
+  slot12:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot13:
+    material: DIAMOND_CHESTPLATE
+    name: "&4&lBadass Chestplate"
+    price: 800
+    purchasable: true
+    lores:
+      - "&eYou can buy this item for {price}"
+    commandsOnPurchase:
+      - give {player} diamond_chestplate
+  slot14:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot15:
+    material: DIAMOND_LEGGINGS
+    name: "&4&lBadass Leggings"
+    price: 700
+    purchasable: true
+    lores:
+      - "&eYou can buy this item for {price}"
+    commandsOnPurchase:
+      - give {player} diamond_leggings
+  slot16:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot17:
+    material: DIAMOND_BOOTS
+    name: "&4&lBadass Boots"
+    price: 400
+    purchasable: true
+    lores:
+      - "&eYou can buy this item for {price}"
+    commandsOnPurchase:
+      - give {player} diamond_boots
+  slot18:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot19:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot20:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot21:
+    material: DIAMOND_PICKAXE
+    name: "&4&lBadass Pickaxe"
+    price: 300
+    purchasable: true
+    lores:
+      - "&eYou can buy this item for {price}"
+    commandsOnPurchase:
+      - give {player} diamond_pickaxe
+  slot22:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot23:
+    material: DIAMOND_AXE
+    name: "&4&lBadass Axe"
+    price: 300
+    purchasable: true
+    lores:
+      - "&eYou can buy this item for {price}"
+    commandsOnPurchase:
+      - give {player} diamond_axe
+  slot24:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot25:
+    material: DIAMOND_PICKAXE
+    name: "&4&lBadass Shovel"
+    price: 300
+    purchasable: true
+    lores:
+      - "&eYou can buy this item for {price}"
+    commandsOnPurchase:
+      - give {player} diamond_shovel
+  slot26:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot27:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot28:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot29:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot30:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot31:
+    material: DIAMOND_SWORD
+    name: "&4&lBadass Sword"
+    price: 200
+    purchasable: true
+    lores:
+      - "&eYou can buy this item for {price}"
+    commandsOnPurchase:
+      - give {player} diamond_sword
+  slot32:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot33:
+    material: BOW
+    name: "&4&lBadass bow"
+    price: 300
+    purchasable: true
+    lores:
+      - "&eYou can buy this item for {price}"
+    commandsOnPurchase:
+      - give {player} diamond_bow
+  slot34:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot35:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false
+  slot36:
+    material: STAINED_GLASS_PANE
+    durability: 1
+    isEnchanted: true
+    purchasable: false

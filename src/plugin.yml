@@ -1,0 +1,13 @@
+name: TokenShop
+version: 1.0.0
+main: me.bottleofglass.TokenShop.Main
+author: Faw
+description: The default command
+depend:
+  - SupremeHoes
+commands:
+  tokenshop:
+    alias: ts
+    usage: /tokenshop help
+    description: The default command
+    permission: tokenshop.user
